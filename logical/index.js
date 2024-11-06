@@ -85,3 +85,9 @@ let get1=sequence1.sort((a,b)=>{
 })
 //negative value aygi phr be hum (a come after b krenge)
 console.log(get)
+
+//swaping
+
+let a=5
+let b=10
+let swap=[a,b]=[b,a]
