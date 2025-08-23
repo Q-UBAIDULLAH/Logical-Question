@@ -91,3 +91,119 @@ console.log(get)
 let a=5
 let b=10
 let swap=[a,b]=[b,a]
+
+
+
+
+// let X=10
+// let Y=20
+// let reverse=[X,Y]=[Y,X]
+// console.log("A",X)
+// console.log("B",Y)
+
+// let a=10
+// let b=20
+// let temp=a 
+// a=b
+// b=temp
+// console.log(a)
+// console.log(b)
+
+
+//Reverse not built-in
+// let names="Kashif"
+// let reverse=""
+// for(let i=names.length-1;i>=0;i--){
+//  reverse+=names[i]
+// }
+// console.log(reverse)
+
+//count vowels
+
+//a e i o u
+
+// let alphabets='abcdfghijklmnopqrstuvwxyz'
+// let vowels=""
+// let count=0
+// for(let i=0;i<alphabets.length;i++){
+// if(alphabets[i]=='a'){
+// vowels+=alphabets[i]
+// count+=+1
+// }
+// else if(alphabets[i]=='e'){
+// vowels+=alphabets[i]
+// count+=+1
+// }
+// else if(alphabets[i]=='i'){
+// vowels+=alphabets[i]
+// count+=+1
+// }
+// else if(alphabets[i]=='o'){
+// vowels+=alphabets[i]
+// count+=+1
+// }
+// else if(alphabets[i]=='u'){
+// vowels+=alphabets[i]
+// count+=+1
+// }
+
+// }
+// console.log(vowels)
+// console.log(count)
+
+
+
+// let alphabets='abcdefghijklmnopqrstuvwxyz'
+// let vowels=""
+// for(let i=0;i<alphabets.length;i++){
+//     if("aeiou".includes(alphabets[i])){
+//         vowels+=alphabets[i]
+//     }
+// }
+// console.log(vowels)
+
+// let alphabets = 'abcdefghijklmnopqrstuvwxyz';
+// let count = 0;
+
+// for (let i = 0; i < alphabets.length; i++) {
+//   if (alphabets[i] === 'a' ||alphabets[i] === 'e' ||alphabets[i] === 'i' ||alphabets[i] === 'o' ||alphabets[i] === 'u') {
+
+//     count++;
+//   }
+// }
+
+// console.log("Total vowels:", count); // 5
+
+
+//Largest & Smallest number
+
+// let numbers=[1,2,3,4,5,6,7,8,9,10]
+// let greaternumber=numbers[0]
+// for(let i=0;i<numbers.length;i++){
+// if(greaternumber>numbers[i]){
+//     greaternumber=numbers[i]
+// }
+// }
+// console.log(greaternumber)
+
+
+//Even ODD number
+// let even=[1,2,3,4,5,6,7,8]
+// let number=" "
+// for(let i=0;i<even.length;i++){
+//     if(even[i]%2!=0){
+//         number+=even[i]
+
+//     }
+// }
+// console.log(number)
+
+// Prime number
+
+let Prime=[1,2,3,4,5,6,7,8,37]
+
+for(let i=0;i<Prime.length;i++){
+    if(Prime[i]%2!=0){
+        console.log("Prime",Prime[i])
+    }
+}
