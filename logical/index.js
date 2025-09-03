@@ -207,3 +207,16 @@ for(let i=0;i<Prime.length;i++){
         console.log("Prime",Prime[i])
     }
 }
+
+let names="maam"
+let reverse=""
+for(let i=names.length-1;i>=0;i--){
+
+    reverse+=names[i]  
+}
+if(reverse==names){
+    console.log("pallindrom")
+}
+else{
+    console.log("not pallindrome")
+}
