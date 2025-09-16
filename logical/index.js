@@ -11,6 +11,7 @@ function findPairs(arr) {
     return pairs;
 }
 
+
 // Example usage:
 let array = [1, 1, 2, 4, 4, 5, 5, 5, 5, 5, 6, 7, 9];
 console.log(findPairs(array));
@@ -65,6 +66,34 @@ let arr=[1,3,2,2,1,4,5,5,6,6,9,9,"apple","banana","apple"]
 let uniqueelement=arr.filter((value,index)=>{
 return arr.indexOf(value)===index
 })
+
+let arr=[1,2,3,4,1,3,5,7,4] //1 3 4
+let newarr=[]
+for(let i=0;i<arr.length;i++){
+    for(let j=i+1;j<arr.length;j++){
+
+      if(arr[i]==arr[j]){
+        console.log(arr[i])
+      }
+        }
+    }
+
+
+//SORT Logically
+let arr=[5,4,3,1,2,0,6]
+
+for(let i=0;i<arr.length;i++){
+
+for(let j=0;j<arr.length;j++){
+   if(arr[j]>arr[j+1]){
+    let temp=arr[j]
+    arr[j]=arr[j+1]
+    arr[j+1]=temp
+   }
+}
+console.log(arr)
+}
+
 
 
 
@@ -226,3 +255,6 @@ let number=2
 for(let i=1;i<=10;i++){
 console.log(`2 X ${i}= ${number*i}`)
 }
+
+
+
